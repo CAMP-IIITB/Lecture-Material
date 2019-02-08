@@ -1,9 +1,11 @@
+// Author(s) - Mindjolt2406 (Rathin Bhargava)
+
 Sprague-Grundy Theorem for Impartial Games
 
 Learning Resources
 
 1. https://www.youtube.com/watch?v=HdRgnzRk56Q&feature=youtu.be <br/>
-   Watch at 1.75x speed
+   A great Codechef lecture, covers everything from the basics
 
 2. http://web.mit.edu/sp.268/www/nim.pdf <br/>
    This article has some interesting games too
@@ -21,9 +23,9 @@ Some other ones -
 
    In this  question, the main observation was that only the alternate piles matter. That part was correct.
    What I said about the summing up the alternate piles and that reduces to a 1 pile game of removing only 1 or 2 coins is wrong. That reduction is incorrect.
-   A counter example can be something like x 1 y 2 ( x,y is any number). The sum is 3, and thus it's a losing state in the 1 pile game of removing 1 or 2 coins, but it is actually a winning state.
+   A counter example can be something like (x 1 y 2) ( x,y is any number). The sum is 3, and thus it's a losing state in the 1 pile game of removing 1 or 2 coins, but it is actually a winning state.
 
-   The first move is x 1 y 1, for which if the opponent plays anything else apart from the 1, it can be mirrored. The agme will either go to x 0 y 1 or x 1 y 0, to which we can just move the one. Now, until the board becomes 0, we can keep mirroring our opponent's moves. 
+   The first move is (x 1 y 1), for which if the opponent plays anything else apart from the 1, it can be mirrored. The agme will either go to (x 0 y 1) or (x 1 y 0), to which we can just move the one. Now, until the board becomes 0, we can keep mirroring our opponent's moves. 
 
 
   
@@ -38,8 +40,6 @@ Some other ones -
    lose our ability to mirror the opponents move. The only move we can't mirror is if the opponent plays from the last pile.Hence we need the last pile, and thus we choose our alternating piles which includes this last one. 
 
   You can prove that this approach is correct as it's a direct reduction to nim, which is correct. 
-
-
    
 
 2. ADAPAWN editorial - https://discuss.codechef.com/questions/144217/adapwns-editorial <br/>
