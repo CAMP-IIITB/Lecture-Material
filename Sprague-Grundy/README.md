@@ -19,12 +19,11 @@ Some other ones -
 
 1. ADAPAWN - https://www.codechef.com/COOK102B/problems/ADAPWNS <br/>
 
-   In this  question, the main observation was that only the alternate piles matter. That part was correct.
-   What I said about the summing up the alternate piles and that reduces to a 1 pile game of removing only 1 or 2 coins is wrong. That reduction is incorrect.
+   In this  question, the main observation was that only the alternate piles matter. That part was correct. <br/>
+   What I said about the summing up the alternate piles and that reduces to a 1 pile game of removing only 1 or 2 coins is wrong. That reduction is incorrect. <br/>
    A counter example can be something like x 1 y 2 ( x,y is any number). The sum is 3, and thus it's a losing state in the 1 pile game of removing 1 or 2 coins, but it is actually a winning state.
 
    The first move is x 1 y 1, for which if the opponent plays anything else apart from the 1, it can be mirrored. The agme will either go to x 0 y 1 or x 1 y 0, to which we can just move the one. Now, until the board becomes 0, we can keep mirroring our opponent's moves. 
-
 
   
    The actual answer is that you consider these n/2 alternating piles starting from the end as different piles of the (1,2) games, compute the grundy number for each and then take the xor.
