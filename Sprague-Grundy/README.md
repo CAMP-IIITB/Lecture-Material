@@ -11,7 +11,7 @@ Learning Resources
    This article has some interesting games too
 
 3. https://codeforces.com/blog/entry/63054 <br/>
-   I didn't read this, because it escalates pretty quickly (has problems related to FFT too)
+   I didn't read this, but have plans to do it in the future. This article escalates pretty quickly and has problems related to FFT. 
 
 Problems
 
