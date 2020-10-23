@@ -4,6 +4,7 @@ Learning Resources
 
 1. https://www.youtube.com/watch?v=HdRgnzRk56Q&feature=youtu.be <br/>
    Watch at 1.75x speed
+   A great Codechef lecture, covers everything from the basics
 
 2. http://web.mit.edu/sp.268/www/nim.pdf <br/>
    This article has some interesting games too
@@ -37,8 +38,6 @@ Some other ones -
    lose our ability to mirror the opponents move. The only move we can't mirror is if the opponent plays from the last pile.Hence we need the last pile, and thus we choose our alternating piles which includes this last one. 
 
   You can prove that this approach is correct as it's a direct reduction to nim, which is correct. 
-
-
    
 
 2. ADAPAWN editorial - https://discuss.codechef.com/questions/144217/adapwns-editorial <br/>
